@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratik Das | Filmmaker</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#000; color:#fff; }
+
+    /* HERO SHOWREEL */
+    .hero {
+      position:relative;
+      height:100vh;
+      overflow:hidden;
+    }
+
+    .hero iframe {
+      position:absolute;
+      top:50%;
+      left:50%;
+      width:120vw;
+      height:120vh;
+      transform:translate(-50%, -50%);
+      pointer-events:none;
+    }
+
+    .overlay {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background:rgba(0,0,0,0.6);
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    .overlay h1 { font-size:3rem; margin:0; }
+    .overlay p { font-size:1.2rem; opacity:0.8; }
+
+    nav {
+      position:absolute;
+      top:20px;
+      right:30px;
+    }
+
+    nav a {
+      color:#fff;
+      margin-left:20px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
+
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:25px; }
+
+    .project iframe { width:100%; height:200px; border-radius:10px; }
+
+    .project h3 { margin:10px 0 5px; }
+
+    footer { text-align:center; padding:30px; background:#000; }
+  </style>
+</head>
+<body>
+
+<!-- HERO SHOWREEL -->
+<div class="hero">
+  <iframe src="https://www.youtube.com/embed/pczDe7fXDtA?autoplay=1&mute=1&loop=1&playlist=pczDe7fXDtA&controls=0&showinfo=0"></iframe>
+
+  <div class="overlay">
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <h1>Pratik Das</h1>
+    <p>Assistant Producer | Filmmaker</p>
+  </div>
+</div>
+
+<section id="work">
+  <h2>Selected Work</h2>
+  <div class="projects">
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/pczDe7fXDtA"></iframe>
+      <h3>Dear Avni</h3>
+      <p>Assistant Producer</p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/0FHeFKYE5dM"></iframe>
+      <h3>PREY</h3>
+      <p>Assistant Producer</p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/kpaw7bcNVp0"></iframe>
+      <h3>Netflix India AD</h3>
+      <p>Assistant Producer</p>
+    </div>
+
+    <div class="project">
+      <iframe src="https://www.youtube.com/embed/5gxx2eKetV0"></iframe>
+      <h3>Mein Herr</h3>
+      <p>1st Assistant Producer</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Filmmaker and Assistant Producer based in Bengaluru. Experienced in managing on-set production, coordinating crews, and executing creative visions across ads, films, and music videos. Passionate about storytelling and high-quality visual content.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: pratikdas408@gmail.com</p>
+  <p>Phone: +91 8327708985</p>
+</section>
+
+<footer>
+  <p>© 2026 Pratik Das</p>
+</footer>
+
+</body>
+</html>
